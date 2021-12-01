@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OAM IT</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0. user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:300,400,700" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    </head>
+<body>
+<!-- TOP NAV HTML -->
+<div class="top-nav clearfix">
+    <a href="index.html" class="logo">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/565/6398927565_d8610907-7173-4bbe-9a2a-fd63f7fb4953.png?cb=1637329562" alt="Airbnb" />
+    </a>
+    <div id="nav-search-wrapper">
+        <form method="GET" action="index.html">
+            <input type="text" name="search" id="nav-search" placeholder="Search" />
+        </form>
+    </div>
+    <ul>
+        <li><a href="#">Become a host</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="file:///C:/Users/Mohamed%20Omar/Desktop/Signup/Signup.html">Sign Up</a></li>
+        <li><a href="file:///C:/Users/Mohamed%20Omar/Desktop/Login/Login.html">Log in</a></li>
+    </ul>
+</div>
+<!-- MOTO -->
+<div class="row">
+    <h1 id="moto">
+        Welcome to <span>OAM IT</span>
+        <br />
+        Book unique homes and
+        <br />
+        experience a city like a
+        <br />
+        local
+    </h1>
+</div>
+<!-- SEARCHBAR -->
+<div id="searchbar-wrapper">
+<div class="row">
+    <form method="get" action="file:///C:/Users/Mohamed%20Omar/Desktop/google/google.html" id="searchbar">
+        <input type="text" name="destination" placeholder="Destination, city, address" /><input type="submit" name="search" value="Search" />
+    </form>
+    <script>
+        let query = document.querySelector('.query');
+        let searchBtn = document.querySelector('.searchBtn');
+        
+        searchBtn.onclick = function(){
+            let url = 'https://www.google.com/search?q='+query.value;
+            window.open(url);
+        }
+    </script>
+</div>
+</div>
+<!-- TAB NAVIGATION -->
+<div class="row">
+<div id="tab-navigation-wrapper">
+    <ul>
+        <li>
+            <a href="#" class="active">FOR YOU</a>
+        </li><li>
+            <a href="#">HOME</a>
+        </li><li>
+            <a href="#">EXPERIENCE</a>
+        </li><li>
+            <a href="#">PLACES</a>
+        </li>
+    </ul>    
+</div>    
+</div>
+<!-- DISPLAY SLIDERS -->     
+<div id="display-sliders-wrapper">
+<div class="row">
+    <!-- EXPERIENCES -->
+    <div class="clearfix">
+        <h3 class="ds-title">Experiences</h3>
+        <a href="javascript:void(0)" class="ds-title-see-all">See all<i class="ion-chevron-right"></i></a>
+    </div>
+    <div class="display-slider">
+        <div class="ds-div">
+            <p>#1</p>
+        </div><div class="ds-div">
+            <p>#2</p>
+        </div><div class="ds-div">
+            <p>#3</p>
+        </div><div class="ds-div">
+            <p>#4</p>
+        </div>
+    </div>
+    <!-- HOMES -->
+    <div class="clearfix">
+        <h3 class="ds-title">Homes</h3>
+        <a href="javascript:void(0)" class="ds-title-see-all">See all<i class="ion-chevron-right"></i></a>
+    </div>
+    <div class="display-slider">
+        <div class="ds-div">
+            <p>#1</p>
+        </div><div class="ds-div">
+            <p>#2</p>
+        </div><div class="ds-div">
+            <p>#3</p>
+        </div><div class="ds-div">
+            <p>#4</p>
+        </div>
+    </div>
+    <!-- FEATURED DESTINATION -->
+    <div class="clearfix">
+        <h3 class="ds-title">Featured Destination</h3>
+        <a href="javascript:void(0)" class="ds-title-see-all">See all<i class="ion-chevron-right"></i></a>
+    </div>
+    <div class="display-slider">
+        <div class="ds-div">
+            <p>#1</p>
+        </div><div class="ds-div">
+            <p>#2</p>
+        </div><div class="ds-div">
+            <p>#3</p>
+        </div><div class="ds-div">
+            <p>#4</p>
+        </div>
+    </div>
+</div>
+</div>
+<!-- footer -->
+<footer>
+    <div class="main-content">
+        <div class="left box">
+            <h2>About us</h2>
+            <div class="content">
+                <p>In OAMIT you can book houses, hotels, tickets, and cars. And we do discounts every months and gifts.Don't miss the chance.</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                    <a href="https://www.tiktok.com/@o_.a._m?lang=en"><span class="fab fa-tiktok"></span></a>
+                    <a href="https://www.instagram.com"><span class="fab fa-instagram"></span></a>
+                    <a href="https://www.youtube.com"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">Somalia, HM</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">+966 0591934737</span>
+                </div>
+                <div class="place">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">info@OAMIT.com</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right box">
+            <h2>Contact us</h2>
+            <div class="content">
+                <form action="#">
+                    <div class="email">
+                        <div class="text">Email</div>
+                        <input type="email" required placeholder="Email">
+                    </div>
+                    <div class="msg">
+                        <div class="text">Message</div>
+                        <textarea rows="2" cols="25" required placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<!-- JAVASCRIPT IMPORTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+<script src="functions.js">
+</script>
+</body>
+</html>
